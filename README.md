@@ -13,7 +13,7 @@ This repository is a collection of my personal configurations, learning resource
 |---------------|---------------------------------------------------------------------------------------------------------|
 | **printf** | Recreation of the `printf` function |
 | **push_swap** | A stack sorting project restricted by movement complexity, using a doubly circular linked list and radix sort. |
-| **pipex**     | Recreation of the Unix pipe `|`; process management and inter-process communication.          |
+| **pipex**     | Recreation of the Unix pipe `|`. Process management and inter-process communication.          |
 | **minishell** | Recreation of a BASH-like s(hell), with a whole DSAdussy. minihell. |
 
 - [**30 Days of Python**](https://github.com/Asabeneh/30-Days-Of-Python).
