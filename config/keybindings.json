@@ -110,8 +110,8 @@ Ctrl + Shift + ;  | Maximize/minimize terminal and focus (requires "multi-comman
 */  
 
   {
-    // ", e": Toggles the sidebar's visibility when the text editor is not focused. <leader> + e
-    "key": ", e",
+    // "ctrl+shift+b": Toggles the sidebar's visibility when the text editor is not focused. <leader> + e
+    "key": "ctrl+shift+b",
     "command": "workbench.action.toggleSidebarVisibility",
     "when": "!editorTextFocus"
   },
@@ -211,6 +211,21 @@ Ctrl + Shift + ;  | Maximize/minimize terminal and focus (requires "multi-comman
     "key": "ctrl+shift+;",
     "command": "multiCommand.toggleMaximizedPanelAndFocusTerminal",
     "when": "!terminalFocus || terminalFocus"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "-extension.vim_ctrl+p",
+    "when": "editorTextFocus && vim.active && vim.use<C-p> && !inDebugRepl || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'CommandlineInProgress' || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'SearchInProgressMode'"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "-extension.vim_ctrl+b",
+    "when": "editorTextFocus && vim.active && vim.use<C-b> && !inDebugRepl && vim.mode != 'Insert'"
+  },
+  {
+    "key": "ctrl+shift+b",
+    "command": "-workbench.action.tasks.build",
+    "when": "taskCommandsRegistered"
   }
 // }}}
 ]
