@@ -6,6 +6,7 @@ This repository is a collection of my personal configurations, learning resource
 - **config/**
   - `.vimrc`: im used to vim fml
   - `keybindings.json` `settings.json`: vscode shortcuts with vim folding
+  - `.bashrc`: ohmyzsh git aliases & gitOpen cmd implementation
 
 - **42/**
   - Notable projects from my time at 42 Singapore SUTD
