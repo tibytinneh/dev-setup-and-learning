@@ -97,8 +97,19 @@ autocmd! User GoyoLeave Limelight!
 " VIMSCRIPT -------------------------------------------------------------- {{{
 " This will enable code folding.
 " Use the marker method of folding.
-augroup filetype_vim
+"
+set foldenable
+set foldmethod=marker
+set foldmarker={{{,}}}
+
+augroup global_folding
     autocmd!
-    autocmd FileType vim setlocal foldmethod=marker
+    autocmd BufRead,BufNewFile * setlocal foldmethod=marker | setlocal foldmarker={{{,}}}
 augroup END
+
+"
+"augroup filetype_vim
+"    autocmd!
+"     autocmd FileType vim setlocal foldmethod=marker
+" augroup END
 " }}}

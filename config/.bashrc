@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# --------- gitOpen --------- {{{
 # Function to open the current GitHub repository in the default browser
 gitOpen() {
   # Get the remote URL from the git configuration
@@ -43,8 +43,8 @@ gitOpen() {
       ;;
   esac
 }
-
-# --------- GIT ALIASES (from Oh My Zsh) ---------
+# }}}
+# --------- GIT ALIASES (from Oh My Zsh) ---------{{{
 # To ~/.bashrc file add line:
 # source ~/.git-plugin-bash.sh
 
@@ -228,4 +228,5 @@ alias glum='git pull upstream master'
 
 alias gwch='git whatchanged -p --abbrev-commit --pretty=medium'
 alias gwip='git add -A; git rm $(git ls-files --deleted) 2> /dev/null; git commit --no-verify --no-gpg-sign -m "--wip-- [skip ci]"'
-
+# }}}
+#
