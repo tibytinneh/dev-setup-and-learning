@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"workbench.colorTheme": "Default Dark Modern",
+		"42header.username": "aang-shu",
+		"42header.email": "aang-shu.42singapore.sg",
+		"42norminette.trace.server": "messages",
+		"terminal.integrated.defaultProfile.windows": "Git Bash",
+		"vim.handleKeys": {
+			"<C-k>": false
+		},
+		"vim.foldfix": true,
+		"multiCommand.commands": [
+			{
+				"command": "multiCommand.toggleMaximizedPanelAndFocusTerminal",
+				"sequence": [
+					"workbench.action.toggleMaximizedPanel",
+					"workbench.action.terminal.focus"
+				]
+			}
+		]
+	}
+}
