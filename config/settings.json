@@ -1,0 +1,82 @@
+// LIST OF INSTALLED EXTENSIONS-----------{{{
+// Vim by vscodevim
+// Explicit Folding by zokugun
+// multi-command by ryuta46
+// }}}
+
+{
+    "editor.tabSize": 4,
+    "workbench.colorTheme": "Default Dark Modern",
+    "terminal.integrated.defaultProfile.windows": "Git Bash", // Default: 'messages'. ['messages', 'off', 'verbose']
+    "multiCommand.commands": [
+    {
+        "command": "multiCommand.toggleMaximizedPanelAndFocusTerminal",
+        "sequence": [
+        "workbench.action.toggleMaximizedPanel",
+        "workbench.action.terminal.focus"
+        ]
+    }
+    ],
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "cmake.configureOnOpen": true,
+    "C_Cpp.default.compilerPath": "c:\\Program Files\\CodeBlocks\\MinGW\\bin\\gcc.exe",
+// 42SCHOOL -----------{{{
+     "[cpp]": {
+        "editor.defaultFormatter": "keyhr.42-c-format"
+    },
+
+          "42header.username": "aang-shu",
+          "42header.email": "aang-shu.42singapore.sg",
+          "42norminette.command": "norminette", // Default: 'norminette'.
+        "42norminette.showErrors": "all", // Default: 'all'. ['all', 'one']
+        "42norminette.trace.server": "messages",
+        "[c]": {
+            "editor.defaultFormatter": "keyhr.42-c-format"
+        },
+// }}}
+// FOLDING CONFIGS ---{{{
+
+    "editor.foldingStrategy": "auto",
+    "editor.defaultFoldingRangeProvider": "zokugun.explicit-folding",
+    "explicitFolding.rules": {
+    "*": {
+      "begin": "{{{",
+      "end": "}}}"
+    }
+    },
+    "[javascriptreact]": {
+    "explicitFolding.rules": [
+        {
+            "begin": "{/*",
+            "end": "*/}"
+        },
+        {
+            "begin": "<",
+            "end": "/>"
+        }
+        ]
+    },
+      "vim.foldfix": true,
+        
+          "vim.normalModeKeyBindings": [
+            {
+                "before": ["z","m"],
+                "commands": ["editor.foldAll"]
+            },
+            {
+                "before": ["z","r"],
+                "commands": ["editor.unfoldAll"]
+            },
+            {
+                "before": ["z","c"],
+                "commands": ["editor.fold"]
+            },
+            {
+                "before": ["z","o"],
+                "commands": ["editor.unfold"]
+            },
+        ]
+        // }}}
+ }
