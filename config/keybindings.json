@@ -1,12 +1,12 @@
 // -------------- LIST OF KEYBINDS --------------{{{
-/* 
+/*
 ** Vim Navigation Shortcuts (Vim normal mode)
 Ctrl + H            | Focus left editor group
 Ctrl + L            | Focus right editor group
 Ctrl + K            | Focus above editor group
 Ctrl + J            | Focus below editor group
 
-** Suggestions and Autocompletion 
+** Suggestions and Autocompletion
 Ctrl + J            | Next suggestion/Quick Open item
 Ctrl + K            | Previous suggestion/Quick Open item
 
@@ -17,10 +17,10 @@ Ctrl + 1           | Focus first editor group
 Ctrl + 2           | Focus second editor group
 
 ** File Explorer Shortcuts
-, e                | Toggle sidebar
-Ctrl + Shift + E   | Focus File Explorer/editor
-Ctrl + Shift + 1   | Open file in first editor group
-Ctrl + Shift + 2   | Open file in second editor group
+Ctrl + Shift + B	| Toggle sidebar
+Ctrl + Shift + E	| Focus File Explorer/editor
+Ctrl + Shift + 1	| Open file in first editor group
+Ctrl + Shift + 2	| Open file in second editor group
 
 ** File Explorer Navigation
 Ctrl + H          | Collapse list item
@@ -107,7 +107,7 @@ Ctrl + Shift + ;  | Maximize/minimize terminal and focus (requires "multi-comman
   // For example, to switch from a file in the left editor group to a file in the right editor group, press ctrl+2,
   // and then use ctrl+tab or ctrl+shift+tab to navigate between files in the right editor group.
   // To switch back to the left editor group, press ctrl+1.
-*/  
+*/
 
   {
     // "ctrl+shift+b": Toggles the sidebar's visibility when the text editor is not focused. <leader> + e

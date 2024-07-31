@@ -111,16 +111,22 @@ print(type(True))
 print(type(False))
 print("\n------------------------------------------------------")
 print("List: An ordered collection of items that can be of different types, enclosed in square brackets.")
+print("Mutable, can contain duplicates.")
+print("Ordered, can be accessed by index.")
 print(type([1, 2, 3, 4]))
 print(type(['a', 'b', 'c', 'd']))
 print(type([2, 'b', 'c', 'd']))
 print("\n------------------------------------------------------")
 print("Tuple: An ordered collection of items similar to a list, but immutable, enclosed in parentheses.")
+print("immutable, can contain duplicates.")
+print("Ordered, can be accessed by index.")
 print(type((1, 2, 3, 4)))
 print(type(('a', 'b', 'c', 'd')))
 print(type((2, 'b', 'c', 'd')))
 print("\n------------------------------------------------------")
 print("Set: An unordered collection of unique items, enclosed in curly braces.")
+print("Only unique elements are stored, duplicates are automatically removed.")
+print("Unordered, no indexing.")
 print(type({1, 2, 3, 4}))
 print(type({'a', 'b', 'c', 'd'}))
 print(type({2, 'b', 'c', 'd'}))
@@ -140,14 +146,14 @@ print("\n------------------------------------------------------")
 print('Exercise: Find an Euclidean distance between (2, 3) and (10, 8)')
 print('''Euclidean distance is a measure of the "straight line" distance between two points in a Euclidean space.
 
-The formula for Euclidean distance in 2D is 
+The formula for Euclidean distance in 2D is
       squareroot((x2 - x1)^2 + (y2 - y1)^2
 The formula for Euclidean distance in 3D is
       squareroot((x2 - x1)^2 + (y2 - y1)^2 + (z2 -z1)^2).
 
 In order to use the square root function in Python, we have to import the math library.
       import math
-      
+
 We can declare the points as tuple variables, immutable collection of items.
 
 point1 = (2,3)
@@ -160,7 +166,7 @@ We can access
 To use the square root function from the math library
       math.sqrt()
 In print(), we can use an f-string.
-      print(f`Your string here {variable} {expression})           
+      print(f`Your string here {variable} {expression})
 
 f-string allows us to easily include variable values in strings.
 The values of the expressions inside the curly braces are evaluated at runtime and converted into strings.
