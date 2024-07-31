@@ -1,3 +1,6 @@
+let g:user42 = 'aang-shu'
+let g:mail42 = 'smallhammu@gmail.com'
+
 " WORK-IN-PROGRESS ------------------------uwu-------------- 
 " My Vim config file for windows desktop PC at home
 " `zo` to open a single fold under the cursor
@@ -11,8 +14,6 @@ syntax on							" Enable syntax highlighting
 set nocompatible					" Disable Vi compatibility mode
 set encoding=utf-8					" Set default encoding to UTF-8
 set fileformat=unix					" Use unix-style line endings 
-colorscheme molokai					" Set the color scheme
-									" curl -o molokai.vim https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim
 set autoindent						" Auto-indent new lines
 " set expandtab						" Convert tabs to space
 " set shiftwidth=4					" Number of spaces for each indentation level
@@ -52,7 +53,7 @@ autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
   \| PlugInstall --sync | source $MYVIMRC
 \| endif
 "}}}
-call plug#begin()
+call plug#begin('~/.vim/plugged')
 Plug 'sheerun/vim-polyglot' " Language pack
 Plug 'tomasr/molokai'       " Nice color scheme
 
@@ -68,6 +69,9 @@ Plug 'tpope/vim-commentary' " Commentary plugin for easy commenting
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 call plug#end()
+
+
+colorscheme molokai					" Set the color scheme
 " NERDTree config---------{{{
 
 " <leader>n to `:NERDTreeFocus` 
@@ -113,3 +117,4 @@ augroup END
 "     autocmd FileType vim setlocal foldmethod=marker
 " augroup END
 " }}}
+
