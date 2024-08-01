@@ -1,0 +1,122 @@
+{
+    "workbench.activityBar.location": "top",
+    "window.customTitleBarVisibility": "auto",
+    "editor.insertSpaces": false,
+    "editor.renderWhitespace": "all",
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "norminette.command": "norminette",
+    "norminette.fileregex": "^ft.*\\.[ch]$",
+    "editor.defaultFormatter": "keyhr.42-c-format",
+    "terminal.integrated.profiles.osx": {
+
+        "bash": {
+            "path": "bash",
+            "args": [
+                "-l"
+            ],
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "zsh",
+            "args": [
+                "-l"
+            ]
+        },
+        "fish": {
+            "path": "fish",
+            "args": [
+                "-l"
+            ]
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        }
+    },
+	"editor.detectIndentation": false,
+	"tabnine.experimentalAutoImports": true,
+	 "vim.handleKeys": {
+        "<C-;>": false
+    },
+	// LIST OF INSTALLED EXTENSIONS-----------{{{
+// Vim by vscodevim
+// Explicit Folding by zokugun
+// multi-command by ryuta46
+// Auto Commit Message by MichaelCurrin
+// }}}
+
+
+    "editor.tabSize": 4,
+    "workbench.colorTheme": "Default Dark Modern",
+    "terminal.integrated.defaultProfile.windows": "Git Bash", // Default: 'messages'. ['messages', 'off', 'verbose']
+    "multiCommand.commands": [
+    {
+        "command": "multiCommand.toggleMaximizedPanelAndFocusTerminal",
+        "sequence": [
+        "workbench.action.toggleMaximizedPanel",
+        "workbench.action.terminal.focus"
+        ]
+    }
+    ],
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "cmake.configureOnOpen": true,
+    "C_Cpp.default.compilerPath": "c:\\Program Files\\CodeBlocks\\MinGW\\bin\\gcc.exe",
+// 42SCHOOL -----------{{{
+     "[cpp]": {
+        "editor.defaultFormatter": "keyhr.42-c-format"
+    },
+
+          "42header.username": "aang-shu",
+          "42header.email": "aang-shu.42singapore.sg",
+          "42norminette.command": "norminette", // Default: 'norminette'.
+        "42norminette.showErrors": "all", // Default: 'all'. ['all', 'one']
+        "42norminette.trace.server": "messages",
+        "[c]": {
+            "editor.defaultFormatter": "keyhr.42-c-format"
+        },
+// }}}
+// FOLDING CONFIGS ---{{{
+
+    "editor.foldingStrategy": "auto",
+    "editor.defaultFoldingRangeProvider": "zokugun.explicit-folding",
+    "explicitFolding.rules": {
+    "*": {
+      "begin": "{{{",
+      "end": "}}}"
+    }
+    },
+      "vim.foldfix": true,
+
+          "vim.normalModeKeyBindings": [
+            {
+                "before": ["z","m"],
+                "commands": ["editor.foldAll"]
+            },
+            {
+                "before": ["z","r"],
+                "commands": ["editor.unfoldAll"]
+            },
+            {
+                "before": ["z","c"],
+                "commands": ["editor.fold"]
+            },
+            {
+                "before": ["z","o"],
+                "commands": ["editor.unfold"]
+            },
+		],
+		"terminal.integrated.defaultProfile.linux": "bash",
+		"terminal.integrated.commandsToSkipShell": [
+			"workbench.action.terminal.focus"
+		],
+		"editor.minimap.enabled": false
+        // }}}
+
+}
