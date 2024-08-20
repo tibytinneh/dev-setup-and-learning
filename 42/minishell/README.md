@@ -1,2 +1,0 @@
-# minishell
-mini BASH shell
