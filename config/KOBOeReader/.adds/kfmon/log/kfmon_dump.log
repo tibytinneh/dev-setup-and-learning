@@ -1,0 +1,394 @@
+[START] [2024-09-30 @ 18:37:41] [INFO] [PID: 348] Starting KFMon . . .
+[START] [2024-09-30 @ 18:37:41] [INFO] [PID: 348] Launched KFMon! (Initial PID: 358)
+[KFMon] [2024-09-30 @ 18:37:41] [INFO] [PID: 362] Initializing KFMon v1.4.6-66-ga63e9af (2024-04-26 21:50:02 +0200) | Using SQLite 3.45.3 (built against 3.45.3) | With FBInk v1.25.0-229-g5fa7b9f
+[KFMon] [2024-09-30 @ 18:37:41] [INFO] Trying to load config file '/mnt/onboard/.adds/kfmon/config/kfmon-log.ini' . . .
+[KFMon] [2024-09-30 @ 18:37:41] [NOTE] Watch config @ index 0 loaded from 'kfmon-log.ini': filename=/mnt/onboard/kfmon.png, action=/mnt/onboard/.adds/kfmon/bin/kfmon-printlog.sh, label=Show KFMon log, hidden=true, block_spawns=false, do_db_update=false, db_title=KFMon Log, db_author=NiLuJe, db_comment=Print the last few lines of KFMon's log
+[KFMon] [2024-09-30 @ 18:37:41] [INFO] Trying to load config file '/mnt/onboard/.adds/kfmon/config/kfmon.ini' . . .
+[KFMon] [2024-09-30 @ 18:37:41] [NOTE] Daemon config loaded from 'kfmon.ini': db_timeout=500, use_syslog=false, with_notifications=true
+[KFMon] [2024-09-30 @ 18:37:41] [INFO] Trying to load config file '/mnt/onboard/.adds/kfmon/config/koreader.ini' . . .
+[KFMon] [2024-09-30 @ 18:37:41] [NOTE] Watch config @ index 1 loaded from 'koreader.ini': filename=/mnt/onboard/koreader.png, action=/mnt/onboard/.adds/koreader/koreader.sh, label=KOReader, hidden=false, block_spawns=true, do_db_update=false, db_title=KOReader, db_author=KOReader Devs, db_comment=An eBook reader application
+[KFMon] [2024-09-30 @ 18:37:41] [INFO] Trying to load config file '/mnt/onboard/.adds/kfmon/config/plato.ini' . . .
+[KFMon] [2024-09-30 @ 18:37:41] [NOTE] Watch config @ index 2 loaded from 'plato.ini': filename=/mnt/onboard/icons/plato.png, action=/mnt/onboard/.adds/plato/plato.sh, label=Plato, hidden=false, block_spawns=true, do_db_update=false, db_title=Plato, db_author=Baskerville, db_comment=A document reader
+[FBInk] Detected a Kobo Libra Colour (390 => Monza @ Mark 11)
+[FBInk] This device does not support HW inversion
+[FBInk] Enabled MediaTek quirks
+[FBInk] Clock tick frequency appears to be 100 Hz
+[FBInk] Screen density set to 300 dpi
+[FBInk] Variable fb info: 1264x1680, 32bpp @ rotation: 1 (Clockwise, 90°)
+[FBInk] Fixed fb info: ID is "hwtcon", length of fb mem: 8494080 bytes & line length: 5056 bytes
+[FBInk] Canonical rotation: 0 (Upright, 0°)
+[FBInk] Fontsize set to 32x32 (IBM base glyph size: 8x8)
+[FBInk] Line length: 39 cols, Page size: 52 rows
+[FBInk] Vertical fit isn't perfect, shifting rows down by 8 pixels
+[FBInk] Pen colors set to #000000 for the foreground and #FFFFFF for the background
+[KFMon] [2024-09-30 @ 18:37:41] [INFO] Beginning the main loop.
+[KFMon] [2024-09-30 @ 18:37:41] [INFO] Checking watch config file '/mnt/onboard/.adds/kfmon/config/kfmon-log.ini' for changes . . .
+[KFMon] [2024-09-30 @ 18:37:41] [INFO] Checking watch config file '/mnt/onboard/.adds/kfmon/config/koreader.ini' for changes . . .
+[KFMon] [2024-09-30 @ 18:37:41] [INFO] Checking watch config file '/mnt/onboard/.adds/kfmon/config/plato.ini' for changes . . .
+[KFMon] [2024-09-30 @ 18:37:41] [INFO] Initializing inotify.
+[KFMon] [2024-09-30 @ 18:37:41] [NOTE] Setup an inotify watch for '/mnt/onboard/kfmon.png' @ index 0.
+[KFMon] [2024-09-30 @ 18:37:41] [NOTE] Setup an inotify watch for '/mnt/onboard/koreader.png' @ index 1.
+[KFMon] [2024-09-30 @ 18:37:41] [NOTE] Setup an inotify watch for '/mnt/onboard/icons/plato.png' @ index 2.
+[KFMon] [2024-09-30 @ 18:37:41] [INFO] Listening for events.
+[KFMon] [2024-09-30 @ 18:37:47] [NOTE] Tripped IN_OPEN for /mnt/onboard/icons/plato.png
+[KFMon] [2024-09-30 @ 18:37:47] [INFO] Full-size screensaver hasn't been parsed yet!
+[KFMon] [2024-09-30 @ 18:37:47] [INFO] Homescreen tile hasn't been parsed yet!
+[KFMon] [2024-09-30 @ 18:37:47] [INFO] Library thumbnail hasn't been parsed yet!
+[KFMon] [2024-09-30 @ 18:37:47] [INFO] Flagged target icon '/mnt/onboard/icons/plato.png' as pending processing ...
+[KFMon] [2024-09-30 @ 18:37:47] [NOTE] Tripped IN_CLOSE for /mnt/onboard/icons/plato.png
+[KFMon] [2024-09-30 @ 18:37:47] [NOTE] Target icon '/mnt/onboard/icons/plato.png' might not have been fully processed by Nickel yet, don't launch anything.
+[KFMon] [2024-09-30 @ 18:37:47] [NOTE] Tripped IN_OPEN for /mnt/onboard/koreader.png
+[KFMon] [2024-09-30 @ 18:37:47] [INFO] Full-size screensaver hasn't been parsed yet!
+[KFMon] [2024-09-30 @ 18:37:47] [INFO] Homescreen tile hasn't been parsed yet!
+[KFMon] [2024-09-30 @ 18:37:47] [INFO] Library thumbnail hasn't been parsed yet!
+[KFMon] [2024-09-30 @ 18:37:47] [INFO] Flagged target icon '/mnt/onboard/koreader.png' as pending processing ...
+[KFMon] [2024-09-30 @ 18:37:47] [NOTE] Tripped IN_CLOSE for /mnt/onboard/koreader.png
+[KFMon] [2024-09-30 @ 18:37:47] [NOTE] Target icon '/mnt/onboard/koreader.png' might not have been fully processed by Nickel yet, don't launch anything.
+[KFMon] [2024-09-30 @ 18:37:48] [NOTE] Tripped IN_OPEN for /mnt/onboard/kfmon.png
+[KFMon] [2024-09-30 @ 18:37:48] [INFO] Full-size screensaver hasn't been parsed yet!
+[KFMon] [2024-09-30 @ 18:37:48] [INFO] Homescreen tile hasn't been parsed yet!
+[KFMon] [2024-09-30 @ 18:37:48] [INFO] Library thumbnail hasn't been parsed yet!
+[KFMon] [2024-09-30 @ 18:37:48] [INFO] Flagged target icon '/mnt/onboard/kfmon.png' as pending processing ...
+[KFMon] [2024-09-30 @ 18:37:48] [NOTE] Tripped IN_CLOSE for /mnt/onboard/kfmon.png
+[KFMon] [2024-09-30 @ 18:37:48] [NOTE] Target icon '/mnt/onboard/kfmon.png' might not have been fully processed by Nickel yet, don't launch anything.
+[KFMon] [2024-09-30 @ 18:38:59] [NOTE] Tripped IN_UNMOUNT for /mnt/onboard/icons/plato.png
+[KFMon] [2024-09-30 @ 18:38:59] [INFO] Unmount detected, nothing to do, all watches will naturally get destroyed.
+[KFMon] [2024-09-30 @ 18:38:59] [NOTE] Tripped IN_IGNORED for /mnt/onboard/icons/plato.png
+[KFMon] [2024-09-30 @ 18:38:59] [INFO] Trying to remove inotify watch for '/mnt/onboard/kfmon.png' @ index 0.
+[KFMon] [2024-09-30 @ 18:38:59] [INFO] Trying to remove inotify watch for '/mnt/onboard/koreader.png' @ index 1.
+[KFMon] [2024-09-30 @ 18:38:59] [INFO] Stopped listening for events.
+[KFMon] [2024-09-30 @ 18:38:59] [INFO] Beginning the main loop.
+[KFMon] [2024-09-30 @ 18:38:59] [INFO] /mnt/onboard isn't mounted, waiting for it to be . . .
+[KFMon] [2024-09-30 @ 18:38:59] [INFO] Mountpoints changed (iteration nr. 1 of 6)
+[KFMon] [2024-09-30 @ 18:38:59] [INFO] Mountpoints changed (iteration nr. 2 of 6)
+[KFMon] [2024-09-30 @ 18:38:59] [INFO] Mountpoints changed (iteration nr. 3 of 6)
+[KFMon] [2024-09-30 @ 18:38:59] [INFO] Mountpoints changed (iteration nr. 4 of 6)
+[KFMon] [2024-09-30 @ 18:38:59] [INFO] Mountpoints changed (iteration nr. 5 of 6)
+[KFMon] [2024-09-30 @ 18:38:59] [INFO] Mountpoints changed (iteration nr. 6 of 6)
+[KFMon] [2024-09-30 @ 18:38:59] [ERR!] Too many mountpoint changes without finding our target (shutdown?), aborting!
+[START] [2024-09-30 @ 18:39:17] [INFO] [PID: 348] Starting KFMon . . .
+[START] [2024-09-30 @ 18:39:17] [INFO] [PID: 348] Launched KFMon! (Initial PID: 358)
+[KFMon] [2024-09-30 @ 18:39:17] [INFO] [PID: 361] Initializing KFMon v1.4.6-66-ga63e9af (2024-04-26 21:50:02 +0200) | Using SQLite 3.45.3 (built against 3.45.3) | With FBInk v1.25.0-229-g5fa7b9f
+[KFMon] [2024-09-30 @ 18:39:17] [INFO] Trying to load config file '/mnt/onboard/.adds/kfmon/config/kfmon-log.ini' . . .
+[KFMon] [2024-09-30 @ 18:39:17] [NOTE] Watch config @ index 0 loaded from 'kfmon-log.ini': filename=/mnt/onboard/kfmon.png, action=/mnt/onboard/.adds/kfmon/bin/kfmon-printlog.sh, label=Show KFMon log, hidden=true, block_spawns=false, do_db_update=false, db_title=KFMon Log, db_author=NiLuJe, db_comment=Print the last few lines of KFMon's log
+[KFMon] [2024-09-30 @ 18:39:17] [INFO] Trying to load config file '/mnt/onboard/.adds/kfmon/config/kfmon.ini' . . .
+[KFMon] [2024-09-30 @ 18:39:17] [NOTE] Daemon config loaded from 'kfmon.ini': db_timeout=500, use_syslog=false, with_notifications=true
+[KFMon] [2024-09-30 @ 18:39:17] [INFO] Trying to load config file '/mnt/onboard/.adds/kfmon/config/koreader.ini' . . .
+[KFMon] [2024-09-30 @ 18:39:17] [NOTE] Watch config @ index 1 loaded from 'koreader.ini': filename=/mnt/onboard/koreader.png, action=/mnt/onboard/.adds/koreader/koreader.sh, label=KOReader, hidden=false, block_spawns=true, do_db_update=false, db_title=KOReader, db_author=KOReader Devs, db_comment=An eBook reader application
+[KFMon] [2024-09-30 @ 18:39:17] [INFO] Trying to load config file '/mnt/onboard/.adds/kfmon/config/plato.ini' . . .
+[KFMon] [2024-09-30 @ 18:39:17] [NOTE] Watch config @ index 2 loaded from 'plato.ini': filename=/mnt/onboard/icons/plato.png, action=/mnt/onboard/.adds/plato/plato.sh, label=Plato, hidden=false, block_spawns=true, do_db_update=false, db_title=Plato, db_author=Baskerville, db_comment=A document reader
+[FBInk] Detected a Kobo Libra Colour (390 => Monza @ Mark 11)
+[FBInk] This device does not support HW inversion
+[FBInk] Enabled MediaTek quirks
+[FBInk] Clock tick frequency appears to be 100 Hz
+[FBInk] Screen density set to 300 dpi
+[FBInk] Variable fb info: 1264x1680, 32bpp @ rotation: 1 (Clockwise, 90°)
+[FBInk] Fixed fb info: ID is "hwtcon", length of fb mem: 8494080 bytes & line length: 5056 bytes
+[FBInk] Canonical rotation: 0 (Upright, 0°)
+[FBInk] Fontsize set to 32x32 (IBM base glyph size: 8x8)
+[FBInk] Line length: 39 cols, Page size: 52 rows
+[FBInk] Vertical fit isn't perfect, shifting rows down by 8 pixels
+[FBInk] Pen colors set to #000000 for the foreground and #FFFFFF for the background
+[KFMon] [2024-09-30 @ 18:39:17] [INFO] Beginning the main loop.
+[KFMon] [2024-09-30 @ 18:39:17] [INFO] Checking watch config file '/mnt/onboard/.adds/kfmon/config/kfmon-log.ini' for changes . . .
+[KFMon] [2024-09-30 @ 18:39:17] [INFO] Checking watch config file '/mnt/onboard/.adds/kfmon/config/koreader.ini' for changes . . .
+[KFMon] [2024-09-30 @ 18:39:17] [INFO] Checking watch config file '/mnt/onboard/.adds/kfmon/config/plato.ini' for changes . . .
+[KFMon] [2024-09-30 @ 18:39:17] [INFO] Initializing inotify.
+[KFMon] [2024-09-30 @ 18:39:17] [NOTE] Setup an inotify watch for '/mnt/onboard/kfmon.png' @ index 0.
+[KFMon] [2024-09-30 @ 18:39:17] [NOTE] Setup an inotify watch for '/mnt/onboard/koreader.png' @ index 1.
+[KFMon] [2024-09-30 @ 18:39:17] [NOTE] Setup an inotify watch for '/mnt/onboard/icons/plato.png' @ index 2.
+[KFMon] [2024-09-30 @ 18:39:17] [INFO] Listening for events.
+[KFMon] [2024-09-30 @ 18:39:38] [NOTE] Tripped IN_OPEN for /mnt/onboard/kfmon.png
+[KFMon] [2024-09-30 @ 18:39:38] [NOTE] Tripped IN_CLOSE for /mnt/onboard/kfmon.png
+[KFMon] [2024-09-30 @ 18:39:38] [INFO] Preparing to spawn /mnt/onboard/.adds/kfmon/bin/kfmon-printlog.sh for watch idx 0 . . .
+[KFMon] [2024-09-30 @ 18:39:38] [NOTE] Spawned process 1153 (/mnt/onboard/kfmon.png -> /mnt/onboard/.adds/kfmon/bin/kfmon-printlog.sh @ watch idx 0) . . .
+[KFMon] [2024-09-30 @ 18:39:38] [INFO] [TID: 1154] Waiting to reap process 1153 (from watch idx 0) . . .
+[KFMon] [2024-09-30 @ 18:39:40] [NOTE] [TID: 1154] Reaped process 1153 (from watch idx 0): It exited with status 0.
+[KFMon] [2024-09-30 @ 18:39:44] [NOTE] Tripped IN_OPEN for /mnt/onboard/kfmon.png
+[KFMon] [2024-09-30 @ 18:39:44] [NOTE] Tripped IN_CLOSE for /mnt/onboard/kfmon.png
+[KFMon] [2024-09-30 @ 18:39:44] [INFO] Preparing to spawn /mnt/onboard/.adds/kfmon/bin/kfmon-printlog.sh for watch idx 0 . . .
+[KFMon] [2024-09-30 @ 18:39:44] [NOTE] Spawned process 1275 (/mnt/onboard/kfmon.png -> /mnt/onboard/.adds/kfmon/bin/kfmon-printlog.sh @ watch idx 0) . . .
+[KFMon] [2024-09-30 @ 18:39:44] [INFO] [TID: 1276] Waiting to reap process 1275 (from watch idx 0) . . .
+[KFMon] [2024-09-30 @ 18:39:46] [NOTE] [TID: 1276] Reaped process 1275 (from watch idx 0): It exited with status 0.
+[KFMon] [2024-09-30 @ 18:39:48] [NOTE] Tripped IN_OPEN for /mnt/onboard/kfmon.png
+[KFMon] [2024-09-30 @ 18:39:48] [NOTE] Tripped IN_CLOSE for /mnt/onboard/kfmon.png
+[KFMon] [2024-09-30 @ 18:39:48] [INFO] Preparing to spawn /mnt/onboard/.adds/kfmon/bin/kfmon-printlog.sh for watch idx 0 . . .
+[KFMon] [2024-09-30 @ 18:39:48] [NOTE] Spawned process 1396 (/mnt/onboard/kfmon.png -> /mnt/onboard/.adds/kfmon/bin/kfmon-printlog.sh @ watch idx 0) . . .
+[KFMon] [2024-09-30 @ 18:39:48] [INFO] [TID: 1397] Waiting to reap process 1396 (from watch idx 0) . . .
+[KFMon] [2024-09-30 @ 18:39:50] [NOTE] [TID: 1397] Reaped process 1396 (from watch idx 0): It exited with status 0.
+[KFMon] [2024-09-30 @ 18:39:51] [NOTE] Tripped IN_OPEN for /mnt/onboard/kfmon.png
+[KFMon] [2024-09-30 @ 18:39:51] [NOTE] Tripped IN_CLOSE for /mnt/onboard/kfmon.png
+[KFMon] [2024-09-30 @ 18:39:51] [INFO] Preparing to spawn /mnt/onboard/.adds/kfmon/bin/kfmon-printlog.sh for watch idx 0 . . .
+[KFMon] [2024-09-30 @ 18:39:51] [NOTE] Spawned process 1521 (/mnt/onboard/kfmon.png -> /mnt/onboard/.adds/kfmon/bin/kfmon-printlog.sh @ watch idx 0) . . .
+[KFMon] [2024-09-30 @ 18:39:51] [INFO] [TID: 1522] Waiting to reap process 1521 (from watch idx 0) . . .
+[KFMon] [2024-09-30 @ 18:39:53] [NOTE] [TID: 1522] Reaped process 1521 (from watch idx 0): It exited with status 0.
+[KFMon] [2024-09-30 @ 18:39:55] [NOTE] Tripped IN_OPEN for /mnt/onboard/kfmon.png
+[KFMon] [2024-09-30 @ 18:39:55] [NOTE] Tripped IN_CLOSE for /mnt/onboard/kfmon.png
+[KFMon] [2024-09-30 @ 18:39:55] [INFO] Preparing to spawn /mnt/onboard/.adds/kfmon/bin/kfmon-printlog.sh for watch idx 0 . . .
+[KFMon] [2024-09-30 @ 18:39:55] [NOTE] Spawned process 1646 (/mnt/onboard/kfmon.png -> /mnt/onboard/.adds/kfmon/bin/kfmon-printlog.sh @ watch idx 0) . . .
+[KFMon] [2024-09-30 @ 18:39:55] [INFO] [TID: 1647] Waiting to reap process 1646 (from watch idx 0) . . .
+[KFMon] [2024-09-30 @ 18:39:57] [NOTE] [TID: 1647] Reaped process 1646 (from watch idx 0): It exited with status 0.
+[KFMon] [2024-09-30 @ 18:39:59] [NOTE] Tripped IN_OPEN for /mnt/onboard/kfmon.png
+[KFMon] [2024-09-30 @ 18:40:00] [NOTE] Tripped IN_CLOSE for /mnt/onboard/kfmon.png
+[KFMon] [2024-09-30 @ 18:40:00] [INFO] Preparing to spawn /mnt/onboard/.adds/kfmon/bin/kfmon-printlog.sh for watch idx 0 . . .
+[KFMon] [2024-09-30 @ 18:40:00] [NOTE] Spawned process 1771 (/mnt/onboard/kfmon.png -> /mnt/onboard/.adds/kfmon/bin/kfmon-printlog.sh @ watch idx 0) . . .
+[KFMon] [2024-09-30 @ 18:40:00] [INFO] [TID: 1772] Waiting to reap process 1771 (from watch idx 0) . . .
+[KFMon] [2024-09-30 @ 18:40:02] [NOTE] [TID: 1772] Reaped process 1771 (from watch idx 0): It exited with status 0.
+[KFMon] [2024-09-30 @ 18:40:09] [NOTE] Tripped IN_OPEN for /mnt/onboard/koreader.png
+[KFMon] [2024-09-30 @ 18:40:09] [NOTE] Tripped IN_CLOSE for /mnt/onboard/koreader.png
+[KFMon] [2024-09-30 @ 18:40:09] [INFO] Preparing to spawn /mnt/onboard/.adds/koreader/koreader.sh for watch idx 1 . . .
+[KFMon] [2024-09-30 @ 18:40:09] [NOTE] /mnt/onboard/.adds/koreader/koreader.sh is flagged as a spawn blocker, it will prevent *any* event from triggering a spawn while it is still running!
+[KFMon] [2024-09-30 @ 18:40:09] [NOTE] Spawned process 1896 (/mnt/onboard/koreader.png -> /mnt/onboard/.adds/koreader/koreader.sh @ watch idx 1) . . .
+[KFMon] [2024-09-30 @ 18:40:09] [INFO] [TID: 1897] Waiting to reap process 1896 (from watch idx 1) . . .
+[KFMon] [2024-09-30 @ 18:40:12] [NOTE] [TID: 1897] Reaped process 1896 (from watch idx 1): It exited with status 1.
+[START] [2024-09-30 @ 18:40:12] [WARN] [PID: 2031] KFMon is already running (PIDFILE: 361 | PID: 361)!
+[KFMon] [2024-09-30 @ 18:40:45] [NOTE] Tripped IN_OPEN for /mnt/onboard/koreader.png
+[KFMon] [2024-09-30 @ 18:40:45] [NOTE] Tripped IN_CLOSE for /mnt/onboard/koreader.png
+[KFMon] [2024-09-30 @ 18:40:45] [INFO] Preparing to spawn /mnt/onboard/.adds/koreader/koreader.sh for watch idx 1 . . .
+[KFMon] [2024-09-30 @ 18:40:45] [NOTE] /mnt/onboard/.adds/koreader/koreader.sh is flagged as a spawn blocker, it will prevent *any* event from triggering a spawn while it is still running!
+[KFMon] [2024-09-30 @ 18:40:45] [NOTE] Spawned process 2830 (/mnt/onboard/koreader.png -> /mnt/onboard/.adds/koreader/koreader.sh @ watch idx 1) . . .
+[KFMon] [2024-09-30 @ 18:40:45] [INFO] [TID: 2831] Waiting to reap process 2830 (from watch idx 1) . . .
+[KFMon] [2024-09-30 @ 18:40:50] [NOTE] [TID: 2831] Reaped process 2830 (from watch idx 1): It exited with status 1.
+[START] [2024-09-30 @ 18:40:50] [WARN] [PID: 2963] KFMon is already running (PIDFILE: 361 | PID: 361)!
+[KFMon] [2024-09-30 @ 18:42:17] [NOTE] Tripped IN_UNMOUNT for /mnt/onboard/icons/plato.png
+[KFMon] [2024-09-30 @ 18:42:17] [INFO] Unmount detected, nothing to do, all watches will naturally get destroyed.
+[KFMon] [2024-09-30 @ 18:42:17] [NOTE] Tripped IN_IGNORED for /mnt/onboard/icons/plato.png
+[KFMon] [2024-09-30 @ 18:42:17] [INFO] Trying to remove inotify watch for '/mnt/onboard/kfmon.png' @ index 0.
+[KFMon] [2024-09-30 @ 18:42:17] [INFO] Trying to remove inotify watch for '/mnt/onboard/koreader.png' @ index 1.
+[KFMon] [2024-09-30 @ 18:42:17] [INFO] Stopped listening for events.
+[KFMon] [2024-09-30 @ 18:42:17] [INFO] Beginning the main loop.
+[KFMon] [2024-09-30 @ 18:42:17] [INFO] /mnt/onboard isn't mounted, waiting for it to be . . .
+[KFMon] [2024-09-30 @ 19:16:04] [INFO] Mountpoints changed (iteration nr. 1 of 6)
+[KFMon] [2024-09-30 @ 19:16:04] [NOTE] Yay! Target mountpoint is available!
+[KFMon] [2024-09-30 @ 19:16:04] [INFO] Checking watch config file '/mnt/onboard/.adds/kfmon/config/kfmon-log.ini' for changes . . .
+[KFMon] [2024-09-30 @ 19:16:04] [INFO] Checking watch config file '/mnt/onboard/.adds/kfmon/config/koreader.ini' for changes . . .
+[KFMon] [2024-09-30 @ 19:16:04] [INFO] Checking watch config file '/mnt/onboard/.adds/kfmon/config/plato.ini' for changes . . .
+[KFMon] [2024-09-30 @ 19:16:04] [INFO] Initializing inotify.
+[KFMon] [2024-09-30 @ 19:16:04] [NOTE] Setup an inotify watch for '/mnt/onboard/kfmon.png' @ index 0.
+[KFMon] [2024-09-30 @ 19:16:04] [NOTE] Setup an inotify watch for '/mnt/onboard/koreader.png' @ index 1.
+[KFMon] [2024-09-30 @ 19:16:04] [NOTE] Setup an inotify watch for '/mnt/onboard/icons/plato.png' @ index 2.
+[KFMon] [2024-09-30 @ 19:16:04] [INFO] Listening for events.
+[KFMon] [2024-09-30 @ 19:16:07] [NOTE] Tripped IN_OPEN for /mnt/onboard/icons/plato.png
+[KFMon] [2024-09-30 @ 19:16:07] [NOTE] Tripped IN_CLOSE for /mnt/onboard/icons/plato.png
+[KFMon] [2024-09-30 @ 19:16:07] [INFO] Preparing to spawn /mnt/onboard/.adds/plato/plato.sh for watch idx 2 . . .
+[KFMon] [2024-09-30 @ 19:16:07] [NOTE] /mnt/onboard/.adds/plato/plato.sh is flagged as a spawn blocker, it will prevent *any* event from triggering a spawn while it is still running!
+[KFMon] [2024-09-30 @ 19:16:07] [NOTE] Spawned process 4102 (/mnt/onboard/icons/plato.png -> /mnt/onboard/.adds/plato/plato.sh @ watch idx 2) . . .
+[KFMon] [2024-09-30 @ 19:16:07] [INFO] [TID: 4103] Waiting to reap process 4102 (from watch idx 2) . . .
+[KFMon] [2024-09-30 @ 19:16:07] [NOTE] [TID: 4103] Reaped process 4102 (from watch idx 2): It exited with status 2.
+[KFMon] [2024-09-30 @ 19:16:07] [CRIT] [TID: 4103] If nothing was visibly launched, and/or especially if status > 1, this *may* actually be an execvp() error: No such file or directory.
+[KFMon] [2024-09-30 @ 19:19:04] [NOTE] Tripped IN_UNMOUNT for /mnt/onboard/icons/plato.png
+[KFMon] [2024-09-30 @ 19:19:04] [INFO] Unmount detected, nothing to do, all watches will naturally get destroyed.
+[KFMon] [2024-09-30 @ 19:19:04] [NOTE] Tripped IN_IGNORED for /mnt/onboard/icons/plato.png
+[KFMon] [2024-09-30 @ 19:19:04] [NOTE] Tripped IN_UNMOUNT for /mnt/onboard/koreader.png
+[KFMon] [2024-09-30 @ 19:19:04] [NOTE] Tripped IN_IGNORED for /mnt/onboard/koreader.png
+[KFMon] [2024-09-30 @ 19:19:04] [NOTE] Tripped IN_UNMOUNT for /mnt/onboard/kfmon.png
+[KFMon] [2024-09-30 @ 19:19:04] [NOTE] Tripped IN_IGNORED for /mnt/onboard/kfmon.png
+[KFMon] [2024-09-30 @ 19:19:04] [INFO] Unmount detected, nothing to do, all watches will naturally get destroyed.
+[KFMon] [2024-09-30 @ 19:19:04] [INFO] Stopped listening for events.
+[KFMon] [2024-09-30 @ 19:19:04] [INFO] Beginning the main loop.
+[KFMon] [2024-09-30 @ 19:19:04] [INFO] /mnt/onboard isn't mounted, waiting for it to be . . .
+[KFMon] [2024-09-30 @ 19:22:04] [INFO] Mountpoints changed (iteration nr. 1 of 6)
+[KFMon] [2024-09-30 @ 19:22:04] [NOTE] Yay! Target mountpoint is available!
+[KFMon] [2024-09-30 @ 19:22:04] [INFO] Checking watch config file '/mnt/onboard/.adds/kfmon/config/kfmon-log.ini' for changes . . .
+[KFMon] [2024-09-30 @ 19:22:04] [INFO] Checking watch config file '/mnt/onboard/.adds/kfmon/config/koreader.ini' for changes . . .
+[KFMon] [2024-09-30 @ 19:22:04] [INFO] Checking watch config file '/mnt/onboard/.adds/kfmon/config/plato.ini' for changes . . .
+[KFMon] [2024-09-30 @ 19:22:04] [INFO] Initializing inotify.
+[KFMon] [2024-09-30 @ 19:22:04] [NOTE] Setup an inotify watch for '/mnt/onboard/kfmon.png' @ index 0.
+[KFMon] [2024-09-30 @ 19:22:04] [NOTE] Setup an inotify watch for '/mnt/onboard/koreader.png' @ index 1.
+[KFMon] [2024-09-30 @ 19:22:04] [NOTE] Setup an inotify watch for '/mnt/onboard/icons/plato.png' @ index 2.
+[KFMon] [2024-09-30 @ 19:22:04] [INFO] Listening for events.
+[KFMon] [2024-09-30 @ 19:22:06] [NOTE] Tripped IN_OPEN for /mnt/onboard/koreader.png
+[KFMon] [2024-09-30 @ 19:22:06] [NOTE] Tripped IN_CLOSE for /mnt/onboard/koreader.png
+[KFMon] [2024-09-30 @ 19:22:06] [INFO] Preparing to spawn /mnt/onboard/.adds/koreader/koreader.sh for watch idx 1 . . .
+[KFMon] [2024-09-30 @ 19:22:06] [NOTE] /mnt/onboard/.adds/koreader/koreader.sh is flagged as a spawn blocker, it will prevent *any* event from triggering a spawn while it is still running!
+[KFMon] [2024-09-30 @ 19:22:06] [NOTE] Spawned process 4311 (/mnt/onboard/koreader.png -> /mnt/onboard/.adds/koreader/koreader.sh @ watch idx 1) . . .
+[KFMon] [2024-09-30 @ 19:22:06] [INFO] [TID: 4312] Waiting to reap process 4311 (from watch idx 1) . . .
+[KFMon] [2024-09-30 @ 19:22:09] [NOTE] [TID: 4312] Reaped process 4311 (from watch idx 1): It exited with status 1.
+[START] [2024-09-30 @ 19:22:09] [WARN] [PID: 4444] KFMon is already running (PIDFILE: 361 | PID: 361)!
+[KFMon] [2024-09-30 @ 19:23:58] [NOTE] Tripped IN_UNMOUNT for /mnt/onboard/icons/plato.png
+[KFMon] [2024-09-30 @ 19:23:58] [INFO] Unmount detected, nothing to do, all watches will naturally get destroyed.
+[KFMon] [2024-09-30 @ 19:23:58] [NOTE] Tripped IN_IGNORED for /mnt/onboard/icons/plato.png
+[KFMon] [2024-09-30 @ 19:23:58] [INFO] Trying to remove inotify watch for '/mnt/onboard/kfmon.png' @ index 0.
+[KFMon] [2024-09-30 @ 19:23:58] [INFO] Trying to remove inotify watch for '/mnt/onboard/koreader.png' @ index 1.
+[KFMon] [2024-09-30 @ 19:23:58] [INFO] Stopped listening for events.
+[KFMon] [2024-09-30 @ 19:23:58] [INFO] Beginning the main loop.
+[KFMon] [2024-09-30 @ 19:23:58] [INFO] /mnt/onboard isn't mounted, waiting for it to be . . .
+[KFMon] [2024-09-30 @ 19:26:55] [INFO] Mountpoints changed (iteration nr. 1 of 6)
+[KFMon] [2024-09-30 @ 19:26:55] [NOTE] Yay! Target mountpoint is available!
+[KFMon] [2024-09-30 @ 19:26:55] [INFO] Checking watch config file '/mnt/onboard/.adds/kfmon/config/kfmon-log.ini' for changes . . .
+[KFMon] [2024-09-30 @ 19:26:55] [INFO] Checking watch config file '/mnt/onboard/.adds/kfmon/config/koreader.ini' for changes . . .
+[KFMon] [2024-09-30 @ 19:26:55] [INFO] Checking watch config file '/mnt/onboard/.adds/kfmon/config/plato.ini' for changes . . .
+[KFMon] [2024-09-30 @ 19:26:55] [INFO] Initializing inotify.
+[KFMon] [2024-09-30 @ 19:26:55] [NOTE] Setup an inotify watch for '/mnt/onboard/kfmon.png' @ index 0.
+[KFMon] [2024-09-30 @ 19:26:55] [NOTE] Setup an inotify watch for '/mnt/onboard/koreader.png' @ index 1.
+[KFMon] [2024-09-30 @ 19:26:55] [NOTE] Setup an inotify watch for '/mnt/onboard/icons/plato.png' @ index 2.
+[KFMon] [2024-09-30 @ 19:26:55] [INFO] Listening for events.
+[KFMon] [2024-09-30 @ 19:27:07] [INFO] Handling incoming IPC connection from PID 4488 (nickel) by user root:root
+[KFMon] [2024-09-30 @ 19:27:07] [INFO] Processing IPC request to trigger watch 'koreader.png'
+[KFMon] [2024-09-30 @ 19:27:07] [INFO] Preparing to spawn /mnt/onboard/.adds/koreader/koreader.sh for watch idx 1 . . .
+[KFMon] [2024-09-30 @ 19:27:07] [NOTE] /mnt/onboard/.adds/koreader/koreader.sh is flagged as a spawn blocker, it will prevent *any* event from triggering a spawn while it is still running!
+[KFMon] [2024-09-30 @ 19:27:07] [NOTE] Spawned process 5363 (/mnt/onboard/koreader.png -> /mnt/onboard/.adds/koreader/koreader.sh @ watch idx 1) . . .
+[KFMon] [2024-09-30 @ 19:27:07] [NOTE] [handle_connection] Client closed the IPC connection
+[KFMon] [2024-09-30 @ 19:27:07] [INFO] Closing IPC connection from PID 4488 (nickel) by user root:root
+[KFMon] [2024-09-30 @ 19:27:07] [INFO] [TID: 5364] Waiting to reap process 5363 (from watch idx 1) . . .
+[KFMon] [2024-09-30 @ 19:27:10] [NOTE] [TID: 5364] Reaped process 5363 (from watch idx 1): It exited with status 1.
+[START] [2024-09-30 @ 19:27:10] [WARN] [PID: 5498] KFMon is already running (PIDFILE: 361 | PID: 361)!
+[KFMon] [2024-09-30 @ 19:27:23] [INFO] Handling incoming IPC connection from PID 5549 (nickel) by user root:root
+[KFMon] [2024-09-30 @ 19:27:23] [INFO] Processing IPC request to trigger watch 'koreader.png'
+[KFMon] [2024-09-30 @ 19:27:23] [INFO] Preparing to spawn /mnt/onboard/.adds/koreader/koreader.sh for watch idx 1 . . .
+[KFMon] [2024-09-30 @ 19:27:23] [NOTE] /mnt/onboard/.adds/koreader/koreader.sh is flagged as a spawn blocker, it will prevent *any* event from triggering a spawn while it is still running!
+[KFMon] [2024-09-30 @ 19:27:23] [NOTE] Spawned process 6224 (/mnt/onboard/koreader.png -> /mnt/onboard/.adds/koreader/koreader.sh @ watch idx 1) . . .
+[KFMon] [2024-09-30 @ 19:27:23] [NOTE] [handle_connection] Client closed the IPC connection
+[KFMon] [2024-09-30 @ 19:27:23] [INFO] Closing IPC connection from PID 5549 (nickel) by user root:root
+[KFMon] [2024-09-30 @ 19:27:23] [INFO] [TID: 6225] Waiting to reap process 6224 (from watch idx 1) . . .
+[KFMon] [2024-09-30 @ 19:27:26] [NOTE] [TID: 6225] Reaped process 6224 (from watch idx 1): It exited with status 1.
+[START] [2024-09-30 @ 19:27:26] [WARN] [PID: 6362] KFMon is already running (PIDFILE: 361 | PID: 361)!
+[KFMon] [2024-09-30 @ 19:28:03] [INFO] Handling incoming IPC connection from PID 6413 (nickel) by user root:root
+[KFMon] [2024-09-30 @ 19:28:03] [INFO] Processing IPC request to trigger watch 'plato.png'
+[KFMon] [2024-09-30 @ 19:28:03] [INFO] Preparing to spawn /mnt/onboard/.adds/plato/plato.sh for watch idx 2 . . .
+[KFMon] [2024-09-30 @ 19:28:03] [NOTE] /mnt/onboard/.adds/plato/plato.sh is flagged as a spawn blocker, it will prevent *any* event from triggering a spawn while it is still running!
+[KFMon] [2024-09-30 @ 19:28:03] [NOTE] Spawned process 7109 (/mnt/onboard/icons/plato.png -> /mnt/onboard/.adds/plato/plato.sh @ watch idx 2) . . .
+[KFMon] [2024-09-30 @ 19:28:03] [NOTE] [handle_connection] Client closed the IPC connection
+[KFMon] [2024-09-30 @ 19:28:03] [INFO] Closing IPC connection from PID 6413 (nickel) by user root:root
+[KFMon] [2024-09-30 @ 19:28:03] [INFO] [TID: 7110] Waiting to reap process 7109 (from watch idx 2) . . .
+[KFMon] [2024-09-30 @ 19:28:03] [NOTE] [TID: 7110] Reaped process 7109 (from watch idx 2): It exited with status 2.
+[KFMon] [2024-09-30 @ 19:28:03] [CRIT] [TID: 7110] If nothing was visibly launched, and/or especially if status > 1, this *may* actually be an execvp() error: No such file or directory.
+[KFMon] [2024-09-30 @ 19:29:28] [INFO] Handling incoming IPC connection from PID 6413 (nickel) by user root:root
+[KFMon] [2024-09-30 @ 19:29:28] [INFO] Processing IPC request to trigger watch 'koreader.png'
+[KFMon] [2024-09-30 @ 19:29:28] [INFO] Preparing to spawn /mnt/onboard/.adds/koreader/koreader.sh for watch idx 1 . . .
+[KFMon] [2024-09-30 @ 19:29:28] [NOTE] /mnt/onboard/.adds/koreader/koreader.sh is flagged as a spawn blocker, it will prevent *any* event from triggering a spawn while it is still running!
+[KFMon] [2024-09-30 @ 19:29:28] [NOTE] Spawned process 7177 (/mnt/onboard/koreader.png -> /mnt/onboard/.adds/koreader/koreader.sh @ watch idx 1) . . .
+[KFMon] [2024-09-30 @ 19:29:28] [NOTE] [handle_connection] Client closed the IPC connection
+[KFMon] [2024-09-30 @ 19:29:28] [INFO] Closing IPC connection from PID 6413 (nickel) by user root:root
+[KFMon] [2024-09-30 @ 19:29:28] [INFO] [TID: 7178] Waiting to reap process 7177 (from watch idx 1) . . .
+[KFMon] [2024-09-30 @ 19:29:46] [NOTE] [TID: 7178] Reaped process 7177 (from watch idx 1): It exited with status 1.
+[START] [2024-09-30 @ 19:29:46] [WARN] [PID: 7310] KFMon is already running (PIDFILE: 361 | PID: 361)!
+[KFMon] [2024-09-30 @ 19:29:59] [INFO] Handling incoming IPC connection from PID 7354 (nickel) by user root:root
+[KFMon] [2024-09-30 @ 19:29:59] [INFO] Processing IPC request to trigger watch 'koreader.png'
+[KFMon] [2024-09-30 @ 19:29:59] [INFO] Preparing to spawn /mnt/onboard/.adds/koreader/koreader.sh for watch idx 1 . . .
+[KFMon] [2024-09-30 @ 19:29:59] [NOTE] /mnt/onboard/.adds/koreader/koreader.sh is flagged as a spawn blocker, it will prevent *any* event from triggering a spawn while it is still running!
+[KFMon] [2024-09-30 @ 19:29:59] [NOTE] Spawned process 7963 (/mnt/onboard/koreader.png -> /mnt/onboard/.adds/koreader/koreader.sh @ watch idx 1) . . .
+[KFMon] [2024-09-30 @ 19:29:59] [NOTE] [handle_connection] Client closed the IPC connection
+[KFMon] [2024-09-30 @ 19:29:59] [INFO] Closing IPC connection from PID 7354 (nickel) by user root:root
+[KFMon] [2024-09-30 @ 19:29:59] [INFO] [TID: 7964] Waiting to reap process 7963 (from watch idx 1) . . .
+[KFMon] [2024-09-30 @ 19:30:17] [NOTE] [TID: 7964] Reaped process 7963 (from watch idx 1): It exited with status 1.
+[START] [2024-09-30 @ 19:30:17] [WARN] [PID: 8096] KFMon is already running (PIDFILE: 361 | PID: 361)!
+[KFMon] [2024-09-30 @ 19:30:51] [NOTE] Tripped IN_UNMOUNT for /mnt/onboard/icons/plato.png
+[KFMon] [2024-09-30 @ 19:30:51] [INFO] Unmount detected, nothing to do, all watches will naturally get destroyed.
+[KFMon] [2024-09-30 @ 19:30:51] [NOTE] Tripped IN_IGNORED for /mnt/onboard/icons/plato.png
+[KFMon] [2024-09-30 @ 19:30:51] [INFO] Trying to remove inotify watch for '/mnt/onboard/kfmon.png' @ index 0.
+[KFMon] [2024-09-30 @ 19:30:51] [INFO] Trying to remove inotify watch for '/mnt/onboard/koreader.png' @ index 1.
+[KFMon] [2024-09-30 @ 19:30:51] [INFO] Stopped listening for events.
+[KFMon] [2024-09-30 @ 19:30:51] [INFO] Beginning the main loop.
+[KFMon] [2024-09-30 @ 19:30:51] [INFO] /mnt/onboard isn't mounted, waiting for it to be . . .
+[KFMon] [2024-09-30 @ 19:36:14] [INFO] Mountpoints changed (iteration nr. 1 of 6)
+[KFMon] [2024-09-30 @ 19:36:14] [NOTE] Yay! Target mountpoint is available!
+[KFMon] [2024-09-30 @ 19:36:14] [INFO] Checking watch config file '/mnt/onboard/.adds/kfmon/config/kfmon-log.ini' for changes . . .
+[KFMon] [2024-09-30 @ 19:36:14] [INFO] Checking watch config file '/mnt/onboard/.adds/kfmon/config/koreader.ini' for changes . . .
+[KFMon] [2024-09-30 @ 19:36:14] [INFO] Checking watch config file '/mnt/onboard/.adds/kfmon/config/plato.ini' for changes . . .
+[KFMon] [2024-09-30 @ 19:36:14] [INFO] Initializing inotify.
+[KFMon] [2024-09-30 @ 19:36:14] [NOTE] Setup an inotify watch for '/mnt/onboard/kfmon.png' @ index 0.
+[KFMon] [2024-09-30 @ 19:36:14] [NOTE] Setup an inotify watch for '/mnt/onboard/koreader.png' @ index 1.
+[KFMon] [2024-09-30 @ 19:36:14] [NOTE] Setup an inotify watch for '/mnt/onboard/icons/plato.png' @ index 2.
+[KFMon] [2024-09-30 @ 19:36:14] [INFO] Listening for events.
+[KFMon] [2024-09-30 @ 19:36:21] [NOTE] Tripped IN_UNMOUNT for /mnt/onboard/icons/plato.png
+[KFMon] [2024-09-30 @ 19:36:21] [INFO] Unmount detected, nothing to do, all watches will naturally get destroyed.
+[KFMon] [2024-09-30 @ 19:36:21] [NOTE] Tripped IN_IGNORED for /mnt/onboard/icons/plato.png
+[KFMon] [2024-09-30 @ 19:36:21] [INFO] Trying to remove inotify watch for '/mnt/onboard/kfmon.png' @ index 0.
+[KFMon] [2024-09-30 @ 19:36:21] [INFO] Trying to remove inotify watch for '/mnt/onboard/koreader.png' @ index 1.
+[KFMon] [2024-09-30 @ 19:36:21] [INFO] Stopped listening for events.
+[KFMon] [2024-09-30 @ 19:36:21] [INFO] Beginning the main loop.
+[KFMon] [2024-09-30 @ 19:36:21] [INFO] /mnt/onboard isn't mounted, waiting for it to be . . .
+[KFMon] [2024-09-30 @ 19:36:21] [INFO] Mountpoints changed (iteration nr. 1 of 6)
+[KFMon] [2024-09-30 @ 19:36:21] [INFO] Mountpoints changed (iteration nr. 2 of 6)
+[KFMon] [2024-09-30 @ 19:36:21] [INFO] Mountpoints changed (iteration nr. 3 of 6)
+[KFMon] [2024-09-30 @ 19:36:21] [INFO] Mountpoints changed (iteration nr. 4 of 6)
+[KFMon] [2024-09-30 @ 19:36:21] [INFO] Mountpoints changed (iteration nr. 5 of 6)
+[KFMon] [2024-09-30 @ 19:36:22] [INFO] Mountpoints changed (iteration nr. 6 of 6)
+[KFMon] [2024-09-30 @ 19:36:22] [ERR!] Too many mountpoint changes without finding our target (shutdown?), aborting!
+[START] [2024-09-30 @ 19:36:40] [INFO] [PID: 348] Starting KFMon . . .
+[START] [2024-09-30 @ 19:36:40] [INFO] [PID: 348] Launched KFMon! (Initial PID: 358)
+[KFMon] [2024-09-30 @ 19:36:40] [INFO] [PID: 361] Initializing KFMon v1.4.6-66-ga63e9af (2024-04-26 21:50:02 +0200) | Using SQLite 3.45.3 (built against 3.45.3) | With FBInk v1.25.0-229-g5fa7b9f
+[KFMon] [2024-09-30 @ 19:36:40] [INFO] Trying to load config file '/mnt/onboard/.adds/kfmon/config/kfmon-log.ini' . . .
+[KFMon] [2024-09-30 @ 19:36:40] [NOTE] Watch config @ index 0 loaded from 'kfmon-log.ini': filename=/mnt/onboard/kfmon.png, action=/mnt/onboard/.adds/kfmon/bin/kfmon-printlog.sh, label=Show KFMon log, hidden=true, block_spawns=false, do_db_update=false, db_title=KFMon Log, db_author=NiLuJe, db_comment=Print the last few lines of KFMon's log
+[KFMon] [2024-09-30 @ 19:36:40] [INFO] Trying to load config file '/mnt/onboard/.adds/kfmon/config/kfmon.ini' . . .
+[KFMon] [2024-09-30 @ 19:36:40] [NOTE] Daemon config loaded from 'kfmon.ini': db_timeout=500, use_syslog=false, with_notifications=true
+[KFMon] [2024-09-30 @ 19:36:40] [INFO] Trying to load config file '/mnt/onboard/.adds/kfmon/config/koreader.ini' . . .
+[KFMon] [2024-09-30 @ 19:36:40] [NOTE] Watch config @ index 1 loaded from 'koreader.ini': filename=/mnt/onboard/koreader.png, action=/mnt/onboard/.adds/koreader/koreader.sh, label=KOReader, hidden=false, block_spawns=true, do_db_update=false, db_title=KOReader, db_author=KOReader Devs, db_comment=An eBook reader application
+[KFMon] [2024-09-30 @ 19:36:40] [INFO] Trying to load config file '/mnt/onboard/.adds/kfmon/config/plato.ini' . . .
+[KFMon] [2024-09-30 @ 19:36:40] [NOTE] Watch config @ index 2 loaded from 'plato.ini': filename=/mnt/onboard/icons/plato.png, action=/mnt/onboard/.adds/plato/plato.sh, label=Plato, hidden=false, block_spawns=true, do_db_update=false, db_title=Plato, db_author=Baskerville, db_comment=A document reader
+[FBInk] Detected a Kobo Libra Colour (390 => Monza @ Mark 11)
+[FBInk] This device does not support HW inversion
+[FBInk] Enabled MediaTek quirks
+[FBInk] Clock tick frequency appears to be 100 Hz
+[FBInk] Screen density set to 300 dpi
+[FBInk] Variable fb info: 1264x1680, 32bpp @ rotation: 1 (Clockwise, 90°)
+[FBInk] Fixed fb info: ID is "hwtcon", length of fb mem: 8494080 bytes & line length: 5056 bytes
+[FBInk] Canonical rotation: 0 (Upright, 0°)
+[FBInk] Fontsize set to 32x32 (IBM base glyph size: 8x8)
+[FBInk] Line length: 39 cols, Page size: 52 rows
+[FBInk] Vertical fit isn't perfect, shifting rows down by 8 pixels
+[FBInk] Pen colors set to #000000 for the foreground and #FFFFFF for the background
+[KFMon] [2024-09-30 @ 19:36:40] [INFO] Beginning the main loop.
+[KFMon] [2024-09-30 @ 19:36:40] [INFO] Checking watch config file '/mnt/onboard/.adds/kfmon/config/kfmon-log.ini' for changes . . .
+[KFMon] [2024-09-30 @ 19:36:40] [INFO] Checking watch config file '/mnt/onboard/.adds/kfmon/config/koreader.ini' for changes . . .
+[KFMon] [2024-09-30 @ 19:36:40] [INFO] Checking watch config file '/mnt/onboard/.adds/kfmon/config/plato.ini' for changes . . .
+[KFMon] [2024-09-30 @ 19:36:40] [INFO] Initializing inotify.
+[KFMon] [2024-09-30 @ 19:36:40] [NOTE] Setup an inotify watch for '/mnt/onboard/kfmon.png' @ index 0.
+[KFMon] [2024-09-30 @ 19:36:40] [NOTE] Setup an inotify watch for '/mnt/onboard/koreader.png' @ index 1.
+[KFMon] [2024-09-30 @ 19:36:40] [NOTE] Setup an inotify watch for '/mnt/onboard/icons/plato.png' @ index 2.
+[KFMon] [2024-09-30 @ 19:36:40] [INFO] Listening for events.
+[KFMon] [2024-09-30 @ 19:36:51] [INFO] Handling incoming IPC connection from PID 368 (nickel) by user root:root
+[KFMon] [2024-09-30 @ 19:36:51] [INFO] Processing IPC request to trigger watch 'koreader.png'
+[KFMon] [2024-09-30 @ 19:36:51] [INFO] Preparing to spawn /mnt/onboard/.adds/koreader/koreader.sh for watch idx 1 . . .
+[KFMon] [2024-09-30 @ 19:36:51] [NOTE] /mnt/onboard/.adds/koreader/koreader.sh is flagged as a spawn blocker, it will prevent *any* event from triggering a spawn while it is still running!
+[KFMon] [2024-09-30 @ 19:36:51] [NOTE] Spawned process 1024 (/mnt/onboard/koreader.png -> /mnt/onboard/.adds/koreader/koreader.sh @ watch idx 1) . . .
+[KFMon] [2024-09-30 @ 19:36:51] [NOTE] [handle_connection] Client closed the IPC connection
+[KFMon] [2024-09-30 @ 19:36:51] [INFO] Closing IPC connection from PID 368 (nickel) by user root:root
+[KFMon] [2024-09-30 @ 19:36:51] [INFO] [TID: 1025] Waiting to reap process 1024 (from watch idx 1) . . .
+[KFMon] [2024-09-30 @ 19:38:50] [NOTE] [TID: 1025] Reaped process 1024 (from watch idx 1): It exited with status 0.
+[START] [2024-09-30 @ 19:38:50] [WARN] [PID: 1089] KFMon is already running (PIDFILE: 361 | PID: 361)!
+[KFMon] [2024-09-30 @ 19:41:00] [INFO] Handling incoming IPC connection from PID 1098 (nickel) by user root:root
+[KFMon] [2024-09-30 @ 19:41:00] [INFO] Processing IPC request to trigger watch 'koreader.png'
+[KFMon] [2024-09-30 @ 19:41:00] [INFO] Preparing to spawn /mnt/onboard/.adds/koreader/koreader.sh for watch idx 1 . . .
+[KFMon] [2024-09-30 @ 19:41:00] [NOTE] /mnt/onboard/.adds/koreader/koreader.sh is flagged as a spawn blocker, it will prevent *any* event from triggering a spawn while it is still running!
+[KFMon] [2024-09-30 @ 19:41:00] [NOTE] Spawned process 1734 (/mnt/onboard/koreader.png -> /mnt/onboard/.adds/koreader/koreader.sh @ watch idx 1) . . .
+[KFMon] [2024-09-30 @ 19:41:00] [NOTE] [handle_connection] Client closed the IPC connection
+[KFMon] [2024-09-30 @ 19:41:00] [INFO] Closing IPC connection from PID 1098 (nickel) by user root:root
+[KFMon] [2024-09-30 @ 19:41:00] [INFO] [TID: 1735] Waiting to reap process 1734 (from watch idx 1) . . .
+[KFMon] [2024-09-30 @ 19:42:30] [NOTE] [TID: 1735] Reaped process 1734 (from watch idx 1): It exited with status 0.
+[START] [2024-09-30 @ 19:42:30] [WARN] [PID: 1795] KFMon is already running (PIDFILE: 361 | PID: 361)!
+[KFMon] [2024-09-30 @ 19:42:51] [INFO] Handling incoming IPC connection from PID 1804 (nickel) by user root:root
+[KFMon] [2024-09-30 @ 19:42:51] [INFO] Processing IPC request to trigger watch 'plato.png'
+[KFMon] [2024-09-30 @ 19:42:51] [INFO] Preparing to spawn /mnt/onboard/.adds/plato/plato.sh for watch idx 2 . . .
+[KFMon] [2024-09-30 @ 19:42:51] [NOTE] /mnt/onboard/.adds/plato/plato.sh is flagged as a spawn blocker, it will prevent *any* event from triggering a spawn while it is still running!
+[KFMon] [2024-09-30 @ 19:42:51] [NOTE] Spawned process 2424 (/mnt/onboard/icons/plato.png -> /mnt/onboard/.adds/plato/plato.sh @ watch idx 2) . . .
+[KFMon] [2024-09-30 @ 19:42:51] [NOTE] [handle_connection] Client closed the IPC connection
+[KFMon] [2024-09-30 @ 19:42:51] [INFO] Closing IPC connection from PID 1804 (nickel) by user root:root
+[KFMon] [2024-09-30 @ 19:42:51] [INFO] [TID: 2425] Waiting to reap process 2424 (from watch idx 2) . . .
+[KFMon] [2024-09-30 @ 19:42:51] [NOTE] [TID: 2425] Reaped process 2424 (from watch idx 2): It exited with status 2.
+[KFMon] [2024-09-30 @ 19:42:51] [CRIT] [TID: 2425] If nothing was visibly launched, and/or especially if status > 1, this *may* actually be an execvp() error: No such file or directory.
+[KFMon] [2024-09-30 @ 19:43:31] [NOTE] Tripped IN_OPEN for /mnt/onboard/kfmon.png
+[*SQL*] [2024-09-30 @ 19:43:31] [WARN] 283 (SQLITE_NOTICE_RECOVER_WAL): recovered 51 frames from WAL file /mnt/onboard/.kobo/KoboReader.sqlite-wal
+[KFMon] [2024-09-30 @ 19:43:31] [NOTE] Tripped IN_CLOSE for /mnt/onboard/kfmon.png
+[*SQL*] [2024-09-30 @ 19:43:31] [WARN] 283 (SQLITE_NOTICE_RECOVER_WAL): recovered 51 frames from WAL file /mnt/onboard/.kobo/KoboReader.sqlite-wal
+[KFMon] [2024-09-30 @ 19:43:31] [INFO] Preparing to spawn /mnt/onboard/.adds/kfmon/bin/kfmon-printlog.sh for watch idx 0 . . .
+[KFMon] [2024-09-30 @ 19:43:31] [NOTE] Spawned process 2472 (/mnt/onboard/kfmon.png -> /mnt/onboard/.adds/kfmon/bin/kfmon-printlog.sh @ watch idx 0) . . .
+[KFMon] [2024-09-30 @ 19:43:31] [NOTE] Tripped IN_OPEN for /mnt/onboard/kfmon.png
+[KFMon] [2024-09-30 @ 19:43:31] [NOTE] Tripped IN_CLOSE for /mnt/onboard/kfmon.png
+[KFMon] [2024-09-30 @ 19:43:31] [INFO] As watch idx 0 (/mnt/onboard/kfmon.png) still has a spawned process (2472 -> /mnt/onboard/.adds/kfmon/bin/kfmon-printlog.sh) running, we won't be spawning another instance of it!
+[KFMon] [2024-09-30 @ 19:43:31] [INFO] [TID: 2473] Waiting to reap process 2472 (from watch idx 0) . . .
+[KFMon] [2024-09-30 @ 19:43:32] [NOTE] Tripped IN_OPEN for /mnt/onboard/koreader.png
+[*SQL*] [2024-09-30 @ 19:43:32] [WARN] 283 (SQLITE_NOTICE_RECOVER_WAL): recovered 51 frames from WAL file /mnt/onboard/.kobo/KoboReader.sqlite-wal
+[KFMon] [2024-09-30 @ 19:43:32] [NOTE] Tripped IN_CLOSE for /mnt/onboard/koreader.png
+[*SQL*] [2024-09-30 @ 19:43:32] [WARN] 283 (SQLITE_NOTICE_RECOVER_WAL): recovered 51 frames from WAL file /mnt/onboard/.kobo/KoboReader.sqlite-wal
+[KFMon] [2024-09-30 @ 19:43:32] [INFO] Preparing to spawn /mnt/onboard/.adds/koreader/koreader.sh for watch idx 1 . . .
+[KFMon] [2024-09-30 @ 19:43:32] [NOTE] /mnt/onboard/.adds/koreader/koreader.sh is flagged as a spawn blocker, it will prevent *any* event from triggering a spawn while it is still running!
+[KFMon] [2024-09-30 @ 19:43:32] [NOTE] Spawned process 2589 (/mnt/onboard/koreader.png -> /mnt/onboard/.adds/koreader/koreader.sh @ watch idx 1) . . .
+[KFMon] [2024-09-30 @ 19:43:32] [NOTE] Tripped IN_OPEN for /mnt/onboard/koreader.png
+[KFMon] [2024-09-30 @ 19:43:32] [NOTE] Tripped IN_CLOSE for /mnt/onboard/koreader.png
+[KFMon] [2024-09-30 @ 19:43:32] [INFO] As watch idx 1 (/mnt/onboard/koreader.png) still has a spawned process (2589 -> /mnt/onboard/.adds/koreader/koreader.sh) running, we won't be spawning another instance of it!
+[KFMon] [2024-09-30 @ 19:43:32] [INFO] [TID: 2590] Waiting to reap process 2589 (from watch idx 1) . . .
+**** Log dumped on 2024-09-30 @ 19:43:34 ****
+**** FW 4.40.23081 on Linux 4.9.77 (#1 SMP PREEMPT 8f1503187-20240617T162448-B0617163842) ****
+**** PRODUCT 'monza' on PLATFORM 'mt8113t-ntx' ****
