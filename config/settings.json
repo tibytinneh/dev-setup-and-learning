@@ -3,10 +3,12 @@
 // Explicit Folding by zokugun
 // multi-command by ryuta46
 // Auto Commit Message by MichaelCurrin
+// gitgraph by mhutchie
 // }}}
 
 {
     "editor.tabSize": 4,
+    "editor.insertSpaces": false,
     "workbench.colorTheme": "Default Dark Modern",
     "terminal.integrated.defaultProfile.windows": "Git Bash", // Default: 'messages'. ['messages', 'off', 'verbose']
     "multiCommand.commands": [
@@ -78,6 +80,9 @@
                 "before": ["z","o"],
                 "commands": ["editor.unfold"]
             },
-        ]
+        ],
+        "tabnine.experimentalAutoImports": true,
+        "tabnine.codeLensEnabled": false,
+        "git.autofetch": true
         // }}}
  }
